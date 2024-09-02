@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("bgoficial.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7; 
+}
+
+header {
+    background: #727272; 
+    padding: 15px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 60px;
+}
+
+.logo {
+    display: flex; 
+    align-items: center;
+}
+
+.logo img {
+    width: 140px; 
+    height: auto;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 35px;
+}
+
+main {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+main h1 {
+    color: rgb(255, 255, 255);
+    margin-top: 90px;
+    padding: 0;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+.project-box {
+    background: #727272; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 20%; 
+    display: inline-block; 
+}
+
+.project-box img {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+}
+
+footer {
+    background-color: #9c9c9c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1 {
+    color: #fff;
+    margin-top: 20px; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+p {
+    color: #fff;
+    margin-top: 0px; 
+    margin-bottom: 20px; 
+    line-height: 1.6;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 10px;
+    color: #ffffff;
+    margin-top: 0px; 
+    padding: 20px; 
+    text-align: center; 
+}

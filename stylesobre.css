@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("bgoficial.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7; 
+}
+
+header {
+    background: #727272; 
+    padding: 15px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 60px;
+}
+
+.logo {
+    display: flex; 
+    align-items: center;
+}
+
+.logo img {
+    width: 140px; 
+    height: auto;
+ }
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 35px;
+}
+
+main {
+    position: relative;
+    text-align: center;
+}
+
+main h1 {
+    color: #ffffff;
+    font-size:x-large;
+    margin-top: 100px;
+    padding: 0%;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+main img {
+    margin-top: 180px;
+    max-width: 32%;
+    height: auto;
+    border: 5px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+main {
+    padding: 20px;
+}
+
+.about-company p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #9c9c9c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1 {
+    color: #fff;
+    margin-top: 10px; 
+    padding: 10px; 
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+main p {
+    color: #fff;
+    position: relative;
+    top: -100px;
+}
